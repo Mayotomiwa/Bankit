@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add if you want to handle dark mode transitions smoothly */
+.dark {
+  @apply bg-gray-900 text-white transition-colors duration-200;
+}
+
+.light {
+  @apply bg-white text-gray-900 transition-colors duration-200;
+}
