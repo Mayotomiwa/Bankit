@@ -31,6 +31,7 @@ Section 3:
 Question 1:
 Handled Form UI styling with TailwindCSS
 Handled Animation with Framer Motion
+Handled Notifications with toastify
 Handled Loader with react-loading-icons dependency
 Handled Form validation with Formik and yup for schema
 Handled server side state management with Tanstack React Query
@@ -40,6 +41,7 @@ Handled Authentication with Firebase authentication
 Question 2:
 Handled Dashboard Design UI with TailwindCSS
 Handled Icons with lucide-react, and radix-ui
+Handled Notifications with toastify
 Handled Chart with recharts library
 Handled Notifications UI using an offCanvas system
 Handled Animation with Framer Motion
