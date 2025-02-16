@@ -5,7 +5,12 @@ export interface Auth extends DarkMode{
     onSwitchToLogin?: () => void;
     onLoginSuccess?: () => void;
     onFormSwitch?: (isRegister: boolean) => void;
+    onLogOut?: () => void;
 }
+export interface AuthPageProps extends Auth {
+    onFormSwitch: (isRegister: boolean) => void;
+    onLoginSuccess: () => void;
+  }
 export interface LoginFormValues {
     email: string;
     password: string;

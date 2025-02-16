@@ -1,0 +1,113 @@
+{
+  "transactionData": [
+    {
+      "id": 1,
+      "type": "Taxi Trips",
+      "date": "03 Aug 2022, 15:43",
+      "amount": 56.50,
+      "icon": "🚕"
+    },
+    {
+      "id": 2,
+      "type": "Public Transport",
+      "date": "01 Aug 2022, 12:58",
+      "amount": 2.50,
+      "icon": "🚇"
+    },
+    {
+      "id": 3,
+      "type": "Plane Tickets",
+      "date": "28 Jul 2022, 21:40",
+      "amount": 70.00,
+      "icon": "✈️"
+    },
+    {
+      "id": 4,
+      "type": "Gas Station",
+      "date": "28 Jul 2022, 09:28",
+      "amount": 30.75,
+      "icon": "⛽"
+    },
+    {
+      "id": 5,
+      "type": "Gym",
+      "date": "26 Jul 2022, 18:25",
+      "amount": 100.00,
+      "icon": "🏋️"
+    }
+  ],
+  "allTransactions": [
+    {
+      "id": 1,
+      "type": "Taxi Trips",
+      "date": "03 Aug 2022, 15:43",
+      "amount": 56.50,
+      "icon": "🚕"
+    },
+    {
+      "id": 2,
+      "type": "Public Transport",
+      "date": "01 Aug 2022, 12:58",
+      "amount": 2.50,
+      "icon": "🚇"
+    },
+    {
+      "id": 3,
+      "type": "Plane Tickets",
+      "date": "28 Jul 2022, 21:40",
+      "amount": 70.00,
+      "icon": "✈️"
+    },
+    {
+      "id": 4,
+      "type": "Gas Station",
+      "date": "28 Jul 2022, 09:28",
+      "amount": 30.75,
+      "icon": "⛽"
+    },
+    {
+      "id": 5,
+      "type": "Gym",
+      "date": "26 Jul 2022, 18:25",
+      "amount": 100.00,
+      "icon": "🏋️"
+    },
+    {
+      "id": 6,
+      "type": "Plane Tickets",
+      "date": "28 Jul 2022, 21:40",
+      "amount": 70.00,
+      "icon": "✈️"
+    },
+    {
+      "id": 7,
+      "type": "Gas Station",
+      "date": "28 Jul 2022, 09:28",
+      "amount": 30.75,
+      "icon": "⛽"
+    },
+    {
+      "id": 8,
+      "type": "Gym",
+      "date": "26 Jul 2022, 18:25",
+      "amount": 100.00,
+      "icon": "🏋️"
+    },
+    {
+      "id": 9,
+      "type": "Gym",
+      "date": "26 Jul 2022, 18:25",
+      "amount": 100.00,
+      "icon": "🏋️"
+    }
+  ],
+  "spendingData": [
+    { "day": "Sun", "amount": 100 },
+    { "day": "Mon", "amount": 150 },
+    { "day": "Tue", "amount": 200 },
+    { "day": "Wed", "amount": 259.75 },
+    { "day": "Thu", "amount": 180 },
+    { "day": "Fri", "amount": 120 },
+    { "day": "Sat", "amount": 90 }
+  ]
+}

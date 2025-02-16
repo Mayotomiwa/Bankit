@@ -1,4 +1,3 @@
-// AuthPage.tsx
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
 import { Bars } from "react-loading-icons";
@@ -6,12 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { CardView } from "../components/AuthCard";
 import { LoginForm } from "../components/LoginForm";
 import { RegisterForm } from "../components/RegisterForm";
-import { Auth } from "../types/authTypes";
-
-interface AuthPageProps extends Auth {
-  onFormSwitch: (isRegister: boolean) => void;
-  onLoginSuccess: () => void;
-}
+import { AuthPageProps } from "../types/authTypes";
 
 export const AuthPage: React.FC<AuthPageProps> = ({
   isDarkMode,

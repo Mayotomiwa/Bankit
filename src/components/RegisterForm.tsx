@@ -10,6 +10,7 @@ import { showToast } from "../utils/showToast";
 export const RegisterForm: React.FC<Auth> = ({
   isDarkMode,
   onSwitchToLogin,
+  onLoginSuccess
 }) => {
   const { registerMutation } = useAuth();
   const [showPassword, setShowPassword] = useState(false);
@@ -28,8 +29,11 @@ export const RegisterForm: React.FC<Auth> = ({
     onSubmit: async (values) => {
       try {
         setLoading(true);
-        await registerMutation.mutateAsync(values);
+        const response = await registerMutation.mutateAsync(values);
         showToast.success("Registration successful!");
+        if (response && onLoginSuccess) {
+            onLoginSuccess();
+          }
       } catch (error) {
         showToast.error(
           error instanceof Error ? error.message : "Registration failed"
