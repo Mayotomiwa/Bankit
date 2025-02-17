@@ -100,6 +100,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({
                 <RegisterForm
                   isDarkMode={isDarkMode}
                   onSwitchToLogin={() => handleFormSwitch(false)}
+                  onLoginSuccess={handleLoginSuccess}
                 />
               )}
             </div>
