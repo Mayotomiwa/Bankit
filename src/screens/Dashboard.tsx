@@ -1,18 +1,18 @@
 import {
-    DotsHorizontalIcon,
-    GearIcon,
-    PersonIcon
+  DotsHorizontalIcon,
+  GearIcon,
+  PersonIcon
 } from "@radix-ui/react-icons";
 import {
-    Line,
-    LineChart,
-    ResponsiveContainer,
-    Tooltip,
-    XAxis,
-    YAxis,
+  Line,
+  LineChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
 } from "recharts";
 import DashboardCard from "../components/DashboardCard";
-import { DashboardHeader } from "../components/DashBoardHeader";
+import { DashboardHeader } from "../components/DashboardHeader";
 import Navigation from "../components/DashboardNav";
 import { spendingData, transactionData } from "../data/transactions.json";
 import { Auth } from "../types/authTypes";

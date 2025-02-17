@@ -1,9 +1,9 @@
 import {
-    DotsHorizontalIcon,
-    GearIcon,
-    PersonIcon
+  DotsHorizontalIcon,
+  GearIcon,
+  PersonIcon
 } from "@radix-ui/react-icons";
-import { DashboardHeader } from "../components/DashBoardHeader";
+import { DashboardHeader } from "../components/DashboardHeader";
 import Navigation from "../components/DashboardNav";
 import { allTransactions } from "../data/transactions.json";
 import { DarkMode } from "../types/GeneralTypes";
