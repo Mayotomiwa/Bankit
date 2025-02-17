@@ -19,7 +19,7 @@ export const DashboardHeader: React.FC<DarkMode> = ({ isDarkMode }) => {
         <div className="relative">
           <MagnifyingGlassIcon
             className={`absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 ${
-              isDarkMode ? "text-gray-500" : "text-gray-400"
+              isDarkMode ? "text-gray-700" : "text-gray-500"
             }`}
           />
           <input

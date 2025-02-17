@@ -29,9 +29,9 @@ export const RegisterForm: React.FC<Auth> = ({
     onSubmit: async (values) => {
       try {
         setLoading(true);
-        const response = await registerMutation.mutateAsync(values);
+        await registerMutation.mutateAsync(values);
         showToast.success("Registration successful!");
-        if (response && onLoginSuccess) {
+        if (onLoginSuccess) {
             onLoginSuccess();
           }
       } catch (error) {

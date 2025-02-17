@@ -1,10 +1,10 @@
 import {
-    BarChartIcon,
-    ChatBubbleIcon,
-    DashboardIcon,
-    GearIcon,
-    PersonIcon,
-    StarIcon,
+  BarChartIcon,
+  ChatBubbleIcon,
+  DashboardIcon,
+  GearIcon,
+  PersonIcon,
+  StarIcon,
 } from "@radix-ui/react-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import { CreditCardIcon, LogOutIcon } from "lucide-react";
